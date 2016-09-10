@@ -16,6 +16,7 @@ public class Queue {
     
     public int topoFila()
     {
+        // TODO fazer tratamento para vazia
         return queue.get(0);
     }
 }

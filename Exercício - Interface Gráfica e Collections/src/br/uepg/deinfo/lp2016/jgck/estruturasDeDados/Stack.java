@@ -1,5 +1,6 @@
 package br.uepg.deinfo.lp2016.jgck.estruturasDeDados;
 
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -16,6 +17,7 @@ public class Stack {
     
     public int topoPilha()
     {
+        // TODO fazer tratamento para vazia
         return stack.get(0);
     }
 }
